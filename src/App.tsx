@@ -1,25 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import fetchLatestBooks from './apiCalls/fetchBooksApi';
+import Header from './components/Header/header';
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRouter from './components/Navigation/AppRouter';
+import SideDrawer from './components/Navigation/SideDrawer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className={styles.App}>
+    //   <div className={styles.drawerHeaderWrapper}>
+    //     <SideDrawer />
+    //     <Header />
+    //   </div>
+    //   <button onClick={fetchLatestBooks}>Click Me</button>
+    // </div>
+    <Router><AppRouter></AppRouter></Router>
   );
 }
 

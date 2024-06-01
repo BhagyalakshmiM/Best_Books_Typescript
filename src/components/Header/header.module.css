@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+.header {
+    display: block;
+    height: 74px;
+    width: 100%;
+    align-content: center;
+    background: #FFFFFF;
+}
+
+.title {
+    font-family: 'Lato';
+    font-size: 23px;
+    font-weight: 800;
+    color: #8B201D;
+    line-height: 34.5px;
+    text-align: left;
+    display: block;
+    margin-left: 43px;
+
+    .firstPart {
+        color: #000;
+    }
+}
