@@ -8,7 +8,7 @@ const SearchInput = () => (
   <Paper
       component="form"
       elevation={0}
-      sx={{ display: 'flex', borderRadius: '41px', marginTop: '55px', width: '949px', height: '52px' }}
+      sx={{ display: 'flex', borderRadius: '41px', margin: '55px 0px', height: '52px' }}
     >
       <IconButton sx={{ p: '16px 16px' }} aria-label="menu">
         <SearchIcon />

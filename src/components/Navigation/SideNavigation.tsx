@@ -44,8 +44,8 @@ const SideNavigation = (): JSX.Element => {
             <List className={styles.ListContainer} disablePadding>
                 {topIcons.map((ele) => {
                     return (
-                        <div className={location.pathname === ele.path ? styles.ListWrapperSelected : styles.ListWrapper}>
-                        <ListItem key={ele.key} divider disablePadding>
+                        <div key={ele.key} className={location.pathname === ele.path ? styles.ListWrapperSelected : styles.ListWrapper}>
+                        <ListItem divider disablePadding>
                             <ListItemButton disableGutters disableRipple onClick={() => handleNavButton(ele.path)} sx={{ flexGrow: 0 }}>
                                 <ListItemIcon sx={{ minWidth: 0 }}>
                                     <ele.component />
