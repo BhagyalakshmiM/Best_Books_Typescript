@@ -1,9 +1,12 @@
-interface PageProps {
+import SearchInput from "../../Common/SearchInput";
+
+
+type PageProps = {
   pageName: string;
 }
 
-const Page = ({ pageName }: PageProps) => (
-  <h1 style={{ margin: '1rem' }}>Demo Page: {pageName}</h1>
+const DashboardPage = ({ pageName }: PageProps) => (
+  <SearchInput />
 );
 
-export default Page;
+export default DashboardPage;

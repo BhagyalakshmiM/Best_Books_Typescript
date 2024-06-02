@@ -1,6 +1,6 @@
 import axios from "axios";
 
-interface Response {
+type Response = {
     lists: []
 }
 

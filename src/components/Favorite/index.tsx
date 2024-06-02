@@ -1,4 +1,4 @@
-interface PageProps {
+type PageProps = {
   pageName: string;
 }
 
