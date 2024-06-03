@@ -8,7 +8,7 @@ const SearchInput = ({ placeholder }) => (
   <Paper
       component="form"
       elevation={0}
-      sx={{ display: 'flex', borderRadius: '41px', margin: '55px 0px', height: '52px', width: '88%' }}
+      sx={{ display: 'flex', borderRadius: '41px', margin: '55px 0px', height: '52px', width: '89.2%' }}
     >
       <IconButton sx={{ p: '16px 16px' }} aria-label="menu">
         <SearchIcon />

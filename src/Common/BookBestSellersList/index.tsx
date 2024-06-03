@@ -6,28 +6,37 @@ import Rating from "@mui/material/Rating";
 import ListItemText from "@mui/material/ListItemText";
 import Avatar from "@mui/material/Avatar";
 import SearchInput from "../SearchInput";
-import { useAppSelector } from "../../Redux/hooks";
-import { BookIcon, FavoriteEmptyIcon, ReviewEmptyStar, FilledStar } from "../../Assets/NavigationIcons";
+import { useAppSelector, useAppDispatch } from "../../Redux/hooks";
+import { setBookFavoriteList } from "../../Redux/bookListSlice";
+import { BookIcon, FavoriteEmptyIcon, FilledHeart } from "../../Assets/NavigationIcons";
+import { ImageObjectProp } from "../../Types/types";
 import styles from './index.module.css';
+import { useEffect, useState } from "react";
 
 const BookBestSellersList = () => {
     const list = useAppSelector(state => state.bookList.bookList);
+    const favList = useAppSelector(state => state.bookList.bookFavoriteList);
+    const [itemList, setItemList] = useState<Array<ImageObjectProp> | []>();
+    const dispatch = useAppDispatch();
+    const addBookToFavorite = (item: any) => {
+        dispatch(setBookFavoriteList(item));
+    };
+    useEffect(() => {
+        list && setItemList(list);
+        // compare favList and list and update itemList
+    }, [list]);
     return (
         <div className={styles.Wrapper}>
             <div className={styles.title}>New York Times Bestsellers</div>
             <SearchInput placeholder="Search" />
             <div className={styles.listWrapper}>
                 <List dense disablePadding>
-                    {list.map((ele) =>
-                        <ListItem sx={{ backgroundColor: '#FFFF', height: '52px', mb: '17px', pl: '6px', alignSelf: 'center !important' }}
+                    {itemList?.map((ele) =>
+                        <ListItem sx={{ backgroundColor: '#FFFF', height: '52px', mb: '17px', pl: '6px' }}
                             secondaryAction={
-                                <div className={styles.listEndItems}><Rating
-                                    name="book rank"
-                                    readOnly
-                                    value={parseInt(ele.rank)}
-                                    precision={1} /><span>{ele.price} GBP</span><IconButton edge="end" aria-label="favorite" sx={{ padding: '16px' }}>
-                                        <FavoriteEmptyIcon />
-                                    </IconButton></div>
+                                    <IconButton onClick={() => addBookToFavorite(ele)} className={styles.favoriteIcon} edge="end" aria-label="favorite" sx={{ padding: '16px' }}>
+                                        {ele.isFavorite ? <FilledHeart /> : <FavoriteEmptyIcon />}
+                                    </IconButton>
                             }
                         >
                             <ListItemAvatar sx={{ minWidth: '44px' }}>
@@ -40,6 +49,14 @@ const BookBestSellersList = () => {
                                 secondary={ele.contributor}
                             >
                             </ListItemText>
+                            <Rating
+                                    name="book rank"
+                                    readOnly
+                                    value={parseInt(ele.rank)}
+                                    precision={1}
+                                    size="small"
+                                    sx={{ mr: '51px'}} />
+                                    <span className={styles.priceSpan}>{ele.price} GBP</span>
                         </ListItem>,
                     )}
                 </List>

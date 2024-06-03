@@ -11,4 +11,5 @@ export type ImageObjectProp = {
     primary_isbn13: string;
     rank: string;
     price: string;
+    isFavorite?: boolean;
 }

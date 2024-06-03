@@ -9,7 +9,7 @@
 }
 
 .listWrapper {
-    width: 88%;
+    width: 89.2%;
 }
 
 .Wrapper {
@@ -30,10 +30,31 @@
         white-space: nowrap;
         text-overflow: ellipsis;
     }
+
     p {
         font-size: 16px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+    }
+}
+
+.priceSpan {
+    margin-right: 53px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #454664;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.favoriteIcon {
+    svg {
+        width: 23px;
+        height: 20px;
     }
 }
