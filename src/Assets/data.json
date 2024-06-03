@@ -1,0 +1,3006 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+    "num_results": 55,
+    "results": {
+        "bestsellers_date": "2024-05-25",
+        "published_date": "2024-06-09",
+        "published_date_description": "latest",
+        "previous_published_date": "2024-06-02",
+        "next_published_date": "",
+        "lists": [
+            {
+                "list_id": 704,
+                "list_name": "Combined Print and E-Book Fiction",
+                "list_name_encoded": "combined-print-and-e-book-fiction",
+                "display_name": "Combined Print & E-Book Fiction",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1668037718?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Stephen King",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781668037713.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Stephen King",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "A dozen short stories that explore darkness in literal and metaphorical forms.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1668037718",
+                        "primary_isbn13": "9781668037713",
+                        "book_uri": "nyt://book/84fc5c9e-1607-56f8-afcd-0ee37bfc8237",
+                        "publisher": "Scribner",
+                        "rank": 1,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "YOU LIKE IT DARKER",
+                        "updated_date": "2024-05-30 13:45:23",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1668037718?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781668037713?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781668037713"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FYOU%2BLIKE%2BIT%2BDARKER%2FStephen%2BKing%2F9781668037713"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781668037713"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781668037713?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1250289696?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Nora Roberts",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250289698.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Nora Roberts",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "Thea shares the gift to see into the minds and souls of others with the man who killed her parents when she was 12 and now seeks vengeance.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "125028970X",
+                        "primary_isbn13": "9781250289704",
+                        "book_uri": "nyt://book/4ba49ea8-d351-5294-a992-ca76bc2beb8e",
+                        "publisher": "St. Martin's",
+                        "rank": 2,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "MIND GAMES",
+                        "updated_date": "2024-05-30 13:45:23",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1250289696?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781250289704?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250289704"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FMIND%2BGAMES%2FNora%2BRoberts%2F9781250289704"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781250289704"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781250289704?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1250178630?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Kristin Hannah",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250178633.jpg",
+                        "book_image_width": 333,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Kristin Hannah",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "In 1965, a nursing student follows her brother to serve during the Vietnam War and returns to a divided America.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1250178630",
+                        "primary_isbn13": "9781250178633",
+                        "book_uri": "nyt://book/9ce735af-71cf-5ff3-a367-43ee07e3fdd7",
+                        "publisher": "St. Martin's",
+                        "rank": 3,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "THE WOMEN",
+                        "updated_date": "2024-05-30 13:45:23",
+                        "weeks_on_list": 16,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1250178630?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781250178633?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250178633"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BWOMEN%2FKristin%2BHannah%2F9781250178633"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781250178633"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781250178633?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593441281?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Emily Henry",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593441282.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Emily Henry",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "After their exes run off together, Daphne and Miles form a friendship and concoct a plan involving misleading photos.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0593441281",
+                        "primary_isbn13": "9780593441282",
+                        "book_uri": "nyt://book/e4f437a2-9715-56c0-90ae-cb569773dcce",
+                        "publisher": "Berkley",
+                        "rank": 4,
+                        "rank_last_week": 3,
+                        "sunday_review_link": "",
+                        "title": "FUNNY STORY",
+                        "updated_date": "2024-05-30 13:45:23",
+                        "weeks_on_list": 5,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593441281?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593441282?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593441282"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FFUNNY%2BSTORY%2FEmily%2BHenry%2F9780593441282"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593441282"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593441282?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "http://www.amazon.com/Ends-Us-Novel-Colleen-Hoover-ebook/dp/B0176M3U10?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Colleen Hoover",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg",
+                        "book_image_width": 319,
+                        "book_image_height": 495,
+                        "book_review_link": "",
+                        "contributor": "by Colleen Hoover",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "A battered wife raised in a violent home attempts to halt the cycle of abuse.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1501110365",
+                        "primary_isbn13": "9781501110368",
+                        "book_uri": "nyt://book/e2a3545e-e9cb-5828-9d97-50a798a0e4f6",
+                        "publisher": "Atria",
+                        "rank": 5,
+                        "rank_last_week": 9,
+                        "sunday_review_link": "",
+                        "title": "IT ENDS WITH US",
+                        "updated_date": "2024-05-30 13:45:23",
+                        "weeks_on_list": 125,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/Ends-Us-Novel-Colleen-Hoover-ebook/dp/B0176M3U10?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781501110368?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501110368"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FIT%2BENDS%2BWITH%2BUS%2FColleen%2BHoover%2F9781501110368"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781501110368"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781501110368?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 708,
+                "list_name": "Combined Print and E-Book Nonfiction",
+                "list_name_encoded": "combined-print-and-e-book-nonfiction",
+                "display_name": "Combined Print & E-Book Nonfiction",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1668051354?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Bill Maher",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781668051351.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Bill Maher",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "The host of “Real Time With Bill Maher” gives his take on a variety of subjects in American culture and politics.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1668051354",
+                        "primary_isbn13": "9781668051351",
+                        "book_uri": "nyt://book/7a5d40a5-f798-5127-be94-ec60f13a3488",
+                        "publisher": "Simon & Schuster",
+                        "rank": 1,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "WHAT THIS COMEDIAN SAID WILL SHOCK YOU",
+                        "updated_date": "2024-05-30 13:45:24",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1668051354?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781668051351?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781668051351"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FWHAT%2BTHIS%2BCOMEDIAN%2BSAID%2BWILL%2BSHOCK%2BYOU%2FBill%2BMaher%2F9781668051351"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781668051351"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781668051351?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0385348746?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Erik Larson",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780385348744.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Erik Larson",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "The author of “The Splendid and the Vile” portrays the months between the election of Abraham Lincoln and the beginning of the Civil War.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0385348746",
+                        "primary_isbn13": "9780385348744",
+                        "book_uri": "nyt://book/6eccd089-c06b-5a8f-8731-b04b031704d6",
+                        "publisher": "Crown",
+                        "rank": 2,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "THE DEMON OF UNREST",
+                        "updated_date": "2024-05-30 13:45:24",
+                        "weeks_on_list": 4,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0385348746?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780385348744?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385348744"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BDEMON%2BOF%2BUNREST%2FErik%2BLarson%2F9780385348744"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780385348744"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780385348744?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593655036?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Jonathan Haidt",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593655030.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Jonathan Haidt",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "A co-author of “The Coddling of the American Mind” looks at the mental health impacts that a phone-based life has on children.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0593655036",
+                        "primary_isbn13": "9780593655030",
+                        "book_uri": "nyt://book/7557cf43-7888-5c15-8206-d3541cccd89b",
+                        "publisher": "Penguin Press",
+                        "rank": 3,
+                        "rank_last_week": 3,
+                        "sunday_review_link": "",
+                        "title": "THE ANXIOUS GENERATION",
+                        "updated_date": "2024-05-30 13:45:24",
+                        "weeks_on_list": 9,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593655036?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593655030?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593655030"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BANXIOUS%2BGENERATION%2FJonathan%2BHaidt%2F9780593655030"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593655030"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593655030?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1538740761?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "George Stephanopoulos with Lisa Dickey",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781538740767.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by George Stephanopoulos with Lisa Dickey",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:33",
+                        "description": "The ABC host and former adviser to President Clinton describes the location where and conditions under which a dozen presidential administrations handled crises.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1538740761",
+                        "primary_isbn13": "9781538740767",
+                        "book_uri": "nyt://book/b293bb1e-38c7-52b9-bb67-6ded4d5253ef",
+                        "publisher": "Grand Central",
+                        "rank": 4,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "",
+                        "title": "THE SITUATION ROOM",
+                        "updated_date": "2024-05-30 13:45:24",
+                        "weeks_on_list": 2,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1538740761?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781538740767?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781538740767"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BSITUATION%2BROOM%2FGeorge%2BStephanopoulos%2Bwith%2BLisa%2BDickey%2F9781538740767"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781538740767"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781538740767?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1982178965?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Elizabeth Beller",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781982178963.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Elizabeth Beller",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:34",
+                        "description": "Carolyn Bessette-Kennedy’s rise to fame and untimely death in a plane crash with her sister, Lauren, and husband, John F. Kennedy Jr.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1982178965",
+                        "primary_isbn13": "9781982178963",
+                        "book_uri": "nyt://book/0e27b883-e4d4-5e2d-b657-cba27695df88",
+                        "publisher": "Gallery",
+                        "rank": 5,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "ONCE UPON A TIME",
+                        "updated_date": "2024-05-30 13:45:24",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1982178965?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781982178963?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781982178963"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FONCE%2BUPON%2BA%2BTIME%2FElizabeth%2BBeller%2F9781982178963"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781982178963"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781982178963?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 1,
+                "list_name": "Hardcover Fiction",
+                "list_name_encoded": "hardcover-fiction",
+                "display_name": "Hardcover Fiction",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1668037718?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Stephen King",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781668037713.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Stephen King",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:27",
+                        "description": "A dozen short stories that explore darkness in literal and metaphorical forms.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1668037718",
+                        "primary_isbn13": "9781668037713",
+                        "book_uri": "nyt://book/84fc5c9e-1607-56f8-afcd-0ee37bfc8237",
+                        "publisher": "Scribner",
+                        "rank": 1,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "YOU LIKE IT DARKER",
+                        "updated_date": "2024-05-30 13:45:17",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1668037718?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781668037713?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781668037713"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FYOU%2BLIKE%2BIT%2BDARKER%2FStephen%2BKing%2F9781668037713"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781668037713"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781668037713?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1250178630?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Kristin Hannah",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250178633.jpg",
+                        "book_image_width": 333,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Kristin Hannah",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:27",
+                        "description": "In 1965, a nursing student follows her brother to serve during the Vietnam War and returns to a divided America.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1250178630",
+                        "primary_isbn13": "9781250178633",
+                        "book_uri": "nyt://book/9ce735af-71cf-5ff3-a367-43ee07e3fdd7",
+                        "publisher": "St. Martin's",
+                        "rank": 2,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "",
+                        "title": "THE WOMEN",
+                        "updated_date": "2024-05-30 13:45:17",
+                        "weeks_on_list": 16,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1250178630?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781250178633?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250178633"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BWOMEN%2FKristin%2BHannah%2F9781250178633"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781250178633"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781250178633?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1250289696?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Nora Roberts",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250289698.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Nora Roberts",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:27",
+                        "description": "Thea shares the gift to see into the minds and souls of others with the man who killed her parents when she was 12 and now seeks vengeance.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1250289696",
+                        "primary_isbn13": "9781250289698",
+                        "book_uri": "nyt://book/fb927835-4906-59c1-9bcf-72f697f4fae6",
+                        "publisher": "St. Martin's",
+                        "rank": 3,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "MIND GAMES",
+                        "updated_date": "2024-05-30 13:45:17",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1250289696?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781250289698?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250289698"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FMIND%2BGAMES%2FNora%2BRoberts%2F9781250289698"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781250289698"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781250289698?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1649375700?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Sara Wolf",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781649375704.jpg",
+                        "book_image_width": 309,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Sara Wolf",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:27",
+                        "description": "A giant machine left over from the war has something unstoppable in it.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1649375700",
+                        "primary_isbn13": "9781649375704",
+                        "book_uri": "nyt://book/f1bd54a2-64e5-5e65-b87e-197f26f76c39",
+                        "publisher": "Red Tower",
+                        "rank": 4,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "HEAVENBREAKER",
+                        "updated_date": "2024-05-30 13:45:17",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1649375700?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781649375704?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781649375704"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FHEAVENBREAKER%2FSara%2BWolf%2F9781649375704"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781649375704"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781649375704?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593441281?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Emily Henry",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593441282.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Emily Henry",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:27",
+                        "description": "After their exes run off together, Daphne and Miles form a friendship and concoct a plan involving misleading photos.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0593441281",
+                        "primary_isbn13": "9780593441282",
+                        "book_uri": "nyt://book/e4f437a2-9715-56c0-90ae-cb569773dcce",
+                        "publisher": "Berkley",
+                        "rank": 5,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "FUNNY STORY",
+                        "updated_date": "2024-05-30 13:45:17",
+                        "weeks_on_list": 5,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593441281?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593441282?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593441282"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FFUNNY%2BSTORY%2FEmily%2BHenry%2F9780593441282"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593441282"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593441282?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 2,
+                "list_name": "Hardcover Nonfiction",
+                "list_name_encoded": "hardcover-nonfiction",
+                "display_name": "Hardcover Nonfiction",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1668051354?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Bill Maher",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781668051351.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Bill Maher",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:30",
+                        "description": "The host of “Real Time With Bill Maher” gives his take on a variety of subjects in American culture and politics.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1668051354",
+                        "primary_isbn13": "9781668051351",
+                        "book_uri": "nyt://book/7a5d40a5-f798-5127-be94-ec60f13a3488",
+                        "publisher": "Simon & Schuster",
+                        "rank": 1,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "WHAT THIS COMEDIAN SAID WILL SHOCK YOU",
+                        "updated_date": "2024-05-30 13:45:20",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1668051354?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781668051351?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781668051351"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FWHAT%2BTHIS%2BCOMEDIAN%2BSAID%2BWILL%2BSHOCK%2BYOU%2FBill%2BMaher%2F9781668051351"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781668051351"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781668051351?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0385348746?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Erik Larson",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780385348744.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Erik Larson",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:30",
+                        "description": "The author of “The Splendid and the Vile” portrays the months between the election of Abraham Lincoln and the beginning of the Civil War.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0385348746",
+                        "primary_isbn13": "9780385348744",
+                        "book_uri": "nyt://book/6eccd089-c06b-5a8f-8731-b04b031704d6",
+                        "publisher": "Crown",
+                        "rank": 2,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "THE DEMON OF UNREST",
+                        "updated_date": "2024-05-30 13:45:20",
+                        "weeks_on_list": 4,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0385348746?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780385348744?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385348744"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BDEMON%2BOF%2BUNREST%2FErik%2BLarson%2F9780385348744"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780385348744"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780385348744?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593655036?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Jonathan Haidt",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593655030.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Jonathan Haidt",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:30",
+                        "description": "A co-author of “The Coddling of the American Mind” looks at the mental health impacts that a phone-based life has on children.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0593655036",
+                        "primary_isbn13": "9780593655030",
+                        "book_uri": "nyt://book/7557cf43-7888-5c15-8206-d3541cccd89b",
+                        "publisher": "Penguin Press",
+                        "rank": 3,
+                        "rank_last_week": 3,
+                        "sunday_review_link": "",
+                        "title": "THE ANXIOUS GENERATION",
+                        "updated_date": "2024-05-30 13:45:20",
+                        "weeks_on_list": 9,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593655036?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593655030?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593655030"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BANXIOUS%2BGENERATION%2FJonathan%2BHaidt%2F9780593655030"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593655030"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593655030?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1538740761?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "George Stephanopoulos with Lisa Dickey",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781538740767.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by George Stephanopoulos with Lisa Dickey",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:30",
+                        "description": "The ABC host and former adviser to President Clinton describes the location where and conditions under which a dozen presidential administrations handled crises.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1538740761",
+                        "primary_isbn13": "9781538740767",
+                        "book_uri": "nyt://book/b293bb1e-38c7-52b9-bb67-6ded4d5253ef",
+                        "publisher": "Grand Central",
+                        "rank": 4,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "",
+                        "title": "THE SITUATION ROOM",
+                        "updated_date": "2024-05-30 13:45:20",
+                        "weeks_on_list": 2,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1538740761?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781538740767?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781538740767"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BSITUATION%2BROOM%2FGeorge%2BStephanopoulos%2Bwith%2BLisa%2BDickey%2F9781538740767"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781538740767"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781538740767?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1668050838?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Sebastian Junger",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781668050835.jpg",
+                        "book_image_width": 350,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Sebastian Junger",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:30",
+                        "description": "After suffering a ruptured aneurysm, the author of “Tribe” and \"The Perfect Storm” addresses some imponderables related to mortality.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1668050838",
+                        "primary_isbn13": "9781668050835",
+                        "book_uri": "nyt://book/21fae7bf-1222-5663-869f-bb5a4eb67372",
+                        "publisher": "Simon & Schuster",
+                        "rank": 5,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "IN MY TIME OF DYING",
+                        "updated_date": "2024-05-30 13:45:20",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1668050838?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781668050835?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781668050835"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FIN%2BMY%2BTIME%2BOF%2BDYING%2FSebastian%2BJunger%2F9781668050835"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781668050835"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781668050835?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 17,
+                "list_name": "Trade Fiction Paperback",
+                "list_name_encoded": "trade-fiction-paperback",
+                "display_name": "Paperback Trade Fiction",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "http://www.amazon.com/Ends-Us-Novel-Colleen-Hoover-ebook/dp/B0176M3U10?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Colleen Hoover",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg",
+                        "book_image_width": 319,
+                        "book_image_height": 495,
+                        "book_review_link": "",
+                        "contributor": "by Colleen Hoover",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "A battered wife raised in a violent home attempts to halt the cycle of abuse.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1501110365",
+                        "primary_isbn13": "9781501110368",
+                        "book_uri": "nyt://book/e2a3545e-e9cb-5828-9d97-50a798a0e4f6",
+                        "publisher": "Atria",
+                        "rank": 1,
+                        "rank_last_week": 6,
+                        "sunday_review_link": "",
+                        "title": "IT ENDS WITH US",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 155,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/Ends-Us-Novel-Colleen-Hoover-ebook/dp/B0176M3U10?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781501110368?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501110368"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FIT%2BENDS%2BWITH%2BUS%2FColleen%2BHoover%2F9781501110368"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781501110368"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781501110368?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1538704439?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Ab Jimenez",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781538704431.jpg",
+                        "book_image_width": 333,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Abby Jimenez",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "Justin and Emma, whose exes find soulmates after breaking up with them, have a fling on a private island on Lake Minnetonka.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1538704439",
+                        "primary_isbn13": "9781538704431",
+                        "book_uri": "nyt://book/552fcc09-0ce5-5f51-a285-03421ce01b5d",
+                        "publisher": "Forever",
+                        "rank": 2,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "JUST FOR THE SUMMER",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 8,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1538704439?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781538704431?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781538704431"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FJUST%2BFOR%2BTHE%2BSUMMER%2FAb%2BJimenez%2F9781538704431"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781538704431"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781538704431?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "http://www.amazon.com/Court-Thorns-Roses-Sarah-Maas-ebook/dp/B00OZP5VRS?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Sarah J. Maas",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781619634459.jpg",
+                        "book_image_width": 326,
+                        "book_image_height": 495,
+                        "book_review_link": "",
+                        "contributor": "by Sarah J. Maas",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "After killing a wolf in the woods, Feyre is taken from her home and placed inside the world of the Fae.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1635575567",
+                        "primary_isbn13": "9781635575569",
+                        "book_uri": "nyt://book/cc163d0f-b8a2-573c-8e81-d804ac7844af",
+                        "publisher": "Bloomsbury",
+                        "rank": 3,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "",
+                        "title": "A COURT OF THORNS AND ROSES",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 7,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/Court-Thorns-Roses-Sarah-Maas-ebook/dp/B00OZP5VRS?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781635575569?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781635575569"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FA%2BCOURT%2BOF%2BTHORNS%2BAND%2BROSES%2FSarah%2BJ.%2BMaas%2F9781635575569"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781635575569"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781635575569?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593638883?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Carley Fortune",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593638880.jpg",
+                        "book_image_width": 333,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Carley Fortune",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "Lucy returns to Prince Edward Island, where she finds it difficult to stay away from her best friend’s younger brother.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0593638883",
+                        "primary_isbn13": "9780593638880",
+                        "book_uri": "nyt://book/7789c44e-4a24-5a41-ab19-23f534908012",
+                        "publisher": "Berkley",
+                        "rank": 4,
+                        "rank_last_week": 3,
+                        "sunday_review_link": "",
+                        "title": "THIS SUMMER WILL BE DIFFERENT",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 3,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593638883?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593638880?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593638880"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHIS%2BSUMMER%2BWILL%2BBE%2BDIFFERENT%2FCarley%2BFortune%2F9780593638880"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593638880"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593638880?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1538742578?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Freida McFadden",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781538742570.jpg",
+                        "book_image_width": 333,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Freida McFadden",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "Troubles surface when a woman looking to make a fresh start takes a job in the home of the Winchesters.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1538742578",
+                        "primary_isbn13": "9781538742570",
+                        "book_uri": "nyt://book/34b29640-4b8c-59a9-8cf8-470356da1e2f",
+                        "publisher": "Grand Central",
+                        "rank": 5,
+                        "rank_last_week": 4,
+                        "sunday_review_link": "",
+                        "title": "THE HOUSEMAID",
+                        "updated_date": "2024-05-30 13:45:20",
+                        "weeks_on_list": 57,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1538742578?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781538742570?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781538742570"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BHOUSEMAID%2FFreida%2BMcFadden%2F9781538742570"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781538742570"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781538742570?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 4,
+                "list_name": "Paperback Nonfiction",
+                "list_name_encoded": "paperback-nonfiction",
+                "display_name": "Paperback Nonfiction",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "http://www.amazon.com/The-Body-Keeps-Score-Healing/dp/0670785938?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Bessel van der Kolk",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780670785933.jpg",
+                        "book_image_width": 128,
+                        "book_image_height": 193,
+                        "book_review_link": "https://www.nytimes.com/2018/10/18/books/review/how-to-rewire-your-traumatized-brain.html",
+                        "contributor": "by Bessel van der Kolk",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "How trauma affects the body and mind, and innovative treatments for recovery.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0143127748",
+                        "primary_isbn13": "9780143127741",
+                        "book_uri": "nyt://book/e3e33e9d-0e67-5fec-b0d2-2ecddc38ce0e",
+                        "publisher": "Penguin",
+                        "rank": 1,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "",
+                        "title": "THE BODY KEEPS THE SCORE",
+                        "updated_date": "2024-05-30 13:45:21",
+                        "weeks_on_list": 292,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/The-Body-Keeps-Score-Healing/dp/0670785938?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780143127741?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780143127741"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BBODY%2BKEEPS%2BTHE%2BSCORE%2FBessel%2Bvan%2Bder%2BKolk%2F9780143127741"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780143127741"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780143127741?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593536134?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Amy Tan",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593536131.jpg",
+                        "book_image_width": 379,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Amy Tan",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "Essays and drawings by the author of “The Joy Luck Club” and “The Bonesetter's Daughter,” which depict a search for peace through birding.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0593536134",
+                        "primary_isbn13": "9780593536131",
+                        "book_uri": "nyt://book/1bde7fcf-f70c-5c94-8303-fb918ea1007e",
+                        "publisher": "Knopf",
+                        "rank": 2,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "THE BACKYARD BIRD CHRONICLES",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 5,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593536134?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593536131?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593536131"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BBACKYARD%2BBIRD%2BCHRONICLES%2FAmy%2BTan%2F9780593536131"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593536131"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593536131?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/059323748X?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Michelle Obama",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593237489.jpg",
+                        "book_image_width": 333,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Michelle Obama",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "The former first lady shares personal stories and the tools she uses to deal with difficult situations.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "059323748X",
+                        "primary_isbn13": "9780593237489",
+                        "book_uri": "nyt://book/0f426712-874a-5c8b-935e-acc79aa0508e",
+                        "publisher": "Crown",
+                        "rank": 3,
+                        "rank_last_week": 4,
+                        "sunday_review_link": "",
+                        "title": "THE LIGHT WE CARRY",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 6,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/059323748X?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593237489?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593237489"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BLIGHT%2BWE%2BCARRY%2FMichelle%2BObama%2F9780593237489"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593237489"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593237489?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/Braiding-Sweetgrass-Indigenous-Scientific-Knowledge/dp/1571313567?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Robin Wall Kimmerer",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781571313560.jpg",
+                        "book_image_width": 321,
+                        "book_image_height": 495,
+                        "book_review_link": "",
+                        "contributor": "by Robin Wall Kimmerer",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "A botanist and member of the Citizen Potawatomi Nation espouses having an understanding and appreciation of plants and animals.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1571313567",
+                        "primary_isbn13": "9781571313560",
+                        "book_uri": "nyt://book/194ea111-42ad-5795-9fb5-3e155ffa5e79",
+                        "publisher": "Milkweed Editions",
+                        "rank": 4,
+                        "rank_last_week": 7,
+                        "sunday_review_link": "",
+                        "title": "BRAIDING SWEETGRASS",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 215,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/Braiding-Sweetgrass-Indigenous-Scientific-Knowledge/dp/1571313567?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781571313560?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781571313560"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FBRAIDING%2BSWEETGRASS%2FRobin%2BWall%2BKimmerer%2F9781571313560"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781571313560"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781571313560?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B00555X8OA?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Daniel Kahneman",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781429969352.jpg",
+                        "book_image_width": 330,
+                        "book_image_height": 490,
+                        "book_review_link": "https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html",
+                        "contributor": "by Daniel Kahneman",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "When we can and cannot trust our intuitions in making business and personal decisions.",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0374533555",
+                        "primary_isbn13": "9780374533557",
+                        "book_uri": "nyt://book/1e1ffccd-d526-5154-84de-1628b31454e9",
+                        "publisher": "Farrar, Straus & Giroux",
+                        "rank": 5,
+                        "rank_last_week": 6,
+                        "sunday_review_link": "https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html",
+                        "title": "THINKING, FAST AND SLOW",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 406,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B00555X8OA?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780374533557?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780374533557"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHINKING%252C%2BFAST%2BAND%2BSLOW%2FDaniel%2BKahneman%2F9780374533557"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780374533557"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780374533557?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 24,
+                "list_name": "Advice How-To and Miscellaneous",
+                "list_name_encoded": "advice-how-to-and-miscellaneous",
+                "display_name": "Advice, How-To & Miscellaneous",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "James Clear",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780735211292.jpg",
+                        "book_image_width": 328,
+                        "book_image_height": 495,
+                        "book_review_link": "",
+                        "contributor": "by James Clear",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0735211299",
+                        "primary_isbn13": "9780735211292",
+                        "book_uri": "nyt://book/0398a355-c032-534e-a0af-647b06f0840d",
+                        "publisher": "Avery",
+                        "rank": 1,
+                        "rank_last_week": 3,
+                        "sunday_review_link": "",
+                        "title": "ATOMIC HABITS",
+                        "updated_date": "2024-05-30 13:45:21",
+                        "weeks_on_list": 235,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780735211292?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780735211292"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FATOMIC%2BHABITS%2FJames%2BClear%2F9780735211292"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780735211292"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780735211292?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593712641?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Casey Means with Calley Means",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593712641.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Casey Means with Calley Means",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0593712641",
+                        "primary_isbn13": "9780593712641",
+                        "book_uri": "nyt://book/480f0e24-f4af-508b-8cf9-2d8027fd2737",
+                        "publisher": "Avery",
+                        "rank": 2,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "",
+                        "title": "GOOD ENERGY",
+                        "updated_date": "2024-05-30 13:45:21",
+                        "weeks_on_list": 2,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593712641?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593712641?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593712641"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FGOOD%2BENERGY%2FCasey%2BMeans%2Bwith%2BCalley%2BMeans%2F9780593712641"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593712641"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593712641?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/059379625X?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Mary Claire Haver",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593796252.jpg",
+                        "book_image_width": 333,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Mary Claire Haver",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "059379625X",
+                        "primary_isbn13": "9780593796252",
+                        "book_uri": "nyt://book/307f1eb3-dfc7-5ffe-9d22-25e239d0778c",
+                        "publisher": "Rodale",
+                        "rank": 3,
+                        "rank_last_week": 4,
+                        "sunday_review_link": "",
+                        "title": "THE NEW MENOPAUSE",
+                        "updated_date": "2024-05-30 13:45:21",
+                        "weeks_on_list": 4,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/059379625X?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593796252?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593796252"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BNEW%2BMENOPAUSE%2FMary%2BClaire%2BHaver%2F9780593796252"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593796252"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593796252?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/0063317591?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Gary Vaynerchuk",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780063317598.jpg",
+                        "book_image_width": 401,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Gary Vaynerchuk",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0063317591",
+                        "primary_isbn13": "9780063317598",
+                        "book_uri": "nyt://book/5341ce70-97d1-5097-bdb6-b33a97d74339",
+                        "publisher": "Harper Business",
+                        "rank": 4,
+                        "rank_last_week": 0,
+                        "sunday_review_link": "",
+                        "title": "DAY TRADING ATTENTION",
+                        "updated_date": "2024-05-30 13:45:21",
+                        "weeks_on_list": 1,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0063317591?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780063317598?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780063317598"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FDAY%2BTRADING%2BATTENTION%2FGary%2BVaynerchuk%2F9780063317598"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780063317598"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780063317598?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "",
+                        "amazon_product_url": "https://www.amazon.com/dp/1984862057?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "ConcernedApe and Ryan Novak",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781984862051.jpg",
+                        "book_image_width": 406,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by ConcernedApe and Ryan Novak",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:31",
+                        "description": "",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1984862057",
+                        "primary_isbn13": "9781984862051",
+                        "book_uri": "nyt://book/5fa33967-f44e-577e-83b6-52ffe3a02b36",
+                        "publisher": "Random House Worlds",
+                        "rank": 5,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "THE OFFICIAL STARDEW VALLEY COOKBOOK",
+                        "updated_date": "2024-05-30 13:45:21",
+                        "weeks_on_list": 2,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1984862057?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781984862051?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781984862051"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BOFFICIAL%2BSTARDEW%2BVALLEY%2BCOOKBOOK%2FConcernedApe%2Band%2BRyan%2BNovak%2F9781984862051"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781984862051"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781984862051?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 13,
+                "list_name": "Childrens Middle Grade Hardcover",
+                "list_name_encoded": "childrens-middle-grade-hardcover",
+                "display_name": "Children’s Middle Grade Hardcover",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "Ages 8 to 12",
+                        "amazon_product_url": "http://www.amazon.com/Wonder-R-J-Palacio-ebook/dp/B0051ANPZQ?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "R.J. Palacio",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780375899881.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 495,
+                        "book_review_link": "",
+                        "contributor": "by R.J. Palacio",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "A boy with a facial deformity starts school. (Ages 8 to 12)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0375869026",
+                        "primary_isbn13": "9780375869020",
+                        "book_uri": "nyt://book/ae6bd2cf-a5d7-535a-99dd-ca8e283c2b01",
+                        "publisher": "Knopf",
+                        "rank": 1,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "https://www.nytimes.com/2012/04/08/books/review/wonder-by-r-j-palacio.html",
+                        "title": "WONDER",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 444,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/Wonder-R-J-Palacio-ebook/dp/B0051ANPZQ?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780375869020?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780375869020"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FWONDER%2FR.J.%2BPalacio%2F9780375869020"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780375869020"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780375869020?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 8 and up",
+                        "amazon_product_url": "https://www.amazon.com/Complete-Cookbook-Young-Chefs/dp/1492670022?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "America's Test Kitchen Kids",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781492670025.jpg",
+                        "book_image_width": 330,
+                        "book_image_height": 419,
+                        "book_review_link": "",
+                        "contributor": "by America's Test Kitchen Kids",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "Over 100 kid-tested recipes from America's Test Kitchen. (Ages 8 and up)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1492670022",
+                        "primary_isbn13": "9781492670025",
+                        "book_uri": "nyt://book/894e62dd-9e61-570a-ad32-6f4617d323e5",
+                        "publisher": "Sourcebooks Jabberwocky",
+                        "rank": 2,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "THE COMPLETE COOKBOOK FOR YOUNG CHEFS",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 200,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/Complete-Cookbook-Young-Chefs/dp/1492670022?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781492670025?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781492670025"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BCOMPLETE%2BCOOKBOOK%2BFOR%2BYOUNG%2BCHEFS%2FAmerica%2527s%2BTest%2BKitchen%2BKids%2F9781492670025"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781492670025"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781492670025?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 8 to 12",
+                        "amazon_product_url": "https://www.amazon.com/dp/1984830295?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Lisa Yee.",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781984830296.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Lisa Yee. Illustrated by Dan Santat",
+                        "contributor_note": "Illustrated by Dan Santat",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "Olive is sent to Reforming Arts School and teams up with a group of crime-fighting outcasts. (Ages 8 to 12)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "None",
+                        "primary_isbn13": "9780593905623",
+                        "book_uri": "nyt://book/bd171a40-90d1-5927-aa29-09ff96c295db",
+                        "publisher": "Random House",
+                        "rank": 3,
+                        "rank_last_week": 3,
+                        "sunday_review_link": "",
+                        "title": "THE MISFITS: A ROYAL CONUNDRUM",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 7,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1984830295?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593905623?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593905623"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BMISFITS%253A%2BA%2BROYAL%2BCONUNDRUM%2FLisa%2BYee.%2F9780593905623"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593905623"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593905623?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 8 to 12",
+                        "amazon_product_url": "https://www.amazon.com/dp/1338736078?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Alan Gratz",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781338736076.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Alan Gratz",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "The friends Frank and Stanley give a vivid account of the Pearl Harbor attack. (Ages 8 to 12)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1338736078",
+                        "primary_isbn13": "9781338736076",
+                        "book_uri": "nyt://book/13b06425-d26e-55e8-bf50-a22623bbcf32",
+                        "publisher": "Scholastic",
+                        "rank": 4,
+                        "rank_last_week": 4,
+                        "sunday_review_link": "",
+                        "title": "HEROES",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 16,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1338736078?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781338736076?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781338736076"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FHEROES%2FAlan%2BGratz%2F9781338736076"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781338736076"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781338736076?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 8 to 12",
+                        "amazon_product_url": "https://www.amazon.com/dp/1250147425?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Katherine Applegate.",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250147424.jpg",
+                        "book_image_width": 347,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Katherine Applegate. Illustrated by Charles Santoso",
+                        "contributor_note": "Illustrated by Charles Santoso",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "After a shark attack, Odder recuperates at the aquarium with the scientists who raised her. (Ages 8 to 12)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1250147425",
+                        "primary_isbn13": "9781250147424",
+                        "book_uri": "nyt://book/8b347350-da89-57e4-ab94-7812cf36069d",
+                        "publisher": "Feiwel & Friends",
+                        "rank": 5,
+                        "rank_last_week": 6,
+                        "sunday_review_link": "",
+                        "title": "ODDER",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 75,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1250147425?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781250147424?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250147424"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FODDER%2FKatherine%2BApplegate.%2F9781250147424"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781250147424"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781250147424?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 7,
+                "list_name": "Picture Books",
+                "list_name_encoded": "picture-books",
+                "display_name": "Children’s Picture Books",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "Ages 4 to 8",
+                        "amazon_product_url": "https://www.amazon.com/dp/1492667838?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Gregory E. Lang.",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781492667834.jpg",
+                        "book_image_width": 500,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Gregory E. Lang. Illustrated by Sydney Hanson",
+                        "contributor_note": "Illustrated by Sydney Hanson",
+                        "created_date": "2024-05-29 22:20:32",
+                        "description": "A father's love for his daughter. (Ages 4 to 8)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1492667838",
+                        "primary_isbn13": "9781492667834",
+                        "book_uri": "nyt://book/036420d0-5c18-5df5-9b89-bb8f8cce56cc",
+                        "publisher": "Sourcebooks Jabberwocky",
+                        "rank": 1,
+                        "rank_last_week": 5,
+                        "sunday_review_link": "",
+                        "title": "WHY A DAUGHTER NEEDS A DAD",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 14,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1492667838?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781492667834?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781492667834"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FWHY%2BA%2BDAUGHTER%2BNEEDS%2BA%2BDAD%2FGregory%2BE.%2BLang.%2F9781492667834"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781492667834"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781492667834?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 4 to 8",
+                        "amazon_product_url": "https://www.amazon.com/dp/1728266181?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Alice Walstead.",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781728266183.jpg",
+                        "book_image_width": 500,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Alice Walstead. Illustrated by Andy Elkerton",
+                        "contributor_note": "Illustrated by Andy Elkerton",
+                        "created_date": "2024-05-29 22:20:32",
+                        "description": "The Catch Club Kids attempt to snare the Daddysaurus, known for his acts of kindness and bravery. (Ages 4 to 8)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1728266181",
+                        "primary_isbn13": "9781728266183",
+                        "book_uri": "nyt://book/9bf98777-bcc2-5425-a42c-80d84aeb6a9f",
+                        "publisher": "Sourcebooks Wonderland",
+                        "rank": 2,
+                        "rank_last_week": 8,
+                        "sunday_review_link": "",
+                        "title": "HOW TO CATCH A DADDYSAURUS",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 5,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1728266181?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781728266183?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781728266183"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FHOW%2BTO%2BCATCH%2BA%2BDADDYSAURUS%2FAlice%2BWalstead.%2F9781728266183"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781728266183"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781728266183?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 4 to 7",
+                        "amazon_product_url": "https://www.amazon.com/Because-Had-Teacher-teachers-everywhere/dp/1943200084?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Kobi Yamada.",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781943200085.jpg",
+                        "book_image_width": 330,
+                        "book_image_height": 330,
+                        "book_review_link": "",
+                        "contributor": "by Kobi Yamada. Illustrated by Natalie Russell",
+                        "contributor_note": "Illustrated by Natalie Russell",
+                        "created_date": "2024-05-29 22:20:32",
+                        "description": "An ode to teachers. (Ages 4 to 7)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1943200084",
+                        "primary_isbn13": "9781943200085",
+                        "book_uri": "nyt://book/b4c3cb4e-6aa2-5cbf-b314-48274c249dc3",
+                        "publisher": "Compendium",
+                        "rank": 3,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "BECAUSE I HAD A TEACHER",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 21,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/Because-Had-Teacher-teachers-everywhere/dp/1943200084?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781943200085?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781943200085"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FBECAUSE%2BI%2BHAD%2BA%2BTEACHER%2FKobi%2BYamada.%2F9781943200085"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781943200085"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781943200085?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 4 to 7",
+                        "amazon_product_url": "https://www.amazon.com/dp/1728235871?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Gregory E. Lang.",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781728235875.jpg",
+                        "book_image_width": 500,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Gregory E. Lang. Illustrated by Gail Yerrill",
+                        "contributor_note": "Illustrated by Gail Yerrill",
+                        "created_date": "2024-05-29 22:20:32",
+                        "description": "The bond between father and son. (Ages 4 to 7)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1728235871",
+                        "primary_isbn13": "9781728235875",
+                        "book_uri": "nyt://book/6d62a792-84e9-522f-b4fc-a2b79991f609",
+                        "publisher": "Sourcebooks Wonderland",
+                        "rank": 4,
+                        "rank_last_week": 9,
+                        "sunday_review_link": "",
+                        "title": "WHY A SON NEEDS A DAD",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 8,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1728235871?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781728235875?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781728235875"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FWHY%2BA%2BSON%2BNEEDS%2BA%2BDAD%2FGregory%2BE.%2BLang.%2F9781728235875"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781728235875"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781728235875?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 5 to 8",
+                        "amazon_product_url": "http://www.amazon.com/What-Do-You-Idea/dp/1938298071?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Kobi Yamada.",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781938298073.jpg",
+                        "book_image_width": 330,
+                        "book_image_height": 393,
+                        "book_review_link": "",
+                        "contributor": "by Kobi Yamada. Illustrated by Mae Besom",
+                        "contributor_note": "Illustrated by Mae Besom",
+                        "created_date": "2024-05-29 22:20:32",
+                        "description": "Giving a new idea the room to grow. (Ages 5 to 8)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1957891343",
+                        "primary_isbn13": "9781957891347",
+                        "book_uri": "nyt://book/cffb99f7-9d6d-5809-977e-4c53d58b60a1",
+                        "publisher": "Compendium",
+                        "rank": 5,
+                        "rank_last_week": 4,
+                        "sunday_review_link": "",
+                        "title": "WHAT DO YOU DO WITH AN IDEA?",
+                        "updated_date": "2024-05-30 13:45:22",
+                        "weeks_on_list": 54,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/What-Do-You-Idea/dp/1938298071?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781957891347?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781957891347"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FWHAT%2BDO%2BYOU%2BDO%2BWITH%2BAN%2BIDEA%253F%2FKobi%2BYamada.%2F9781957891347"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781957891347"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781957891347?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 10,
+                "list_name": "Series Books",
+                "list_name_encoded": "series-books",
+                "display_name": "Children’s & Young Adult Series",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "Ages 14 and up",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593379853?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Holly Jackson",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593379851.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Holly Jackson",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:27",
+                        "description": "Pippa Fitz-Amobi solves murderous crimes. (Ages 14 and up)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1984896393",
+                        "primary_isbn13": "9781984896391",
+                        "book_uri": "nyt://book/494423b3-84b1-5f41-ae97-b525e4a5245c",
+                        "publisher": "Delacorte",
+                        "rank": 1,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "",
+                        "title": "A GOOD GIRL'S GUIDE TO MURDER",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 139,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593379853?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781984896391?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781984896391"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FA%2BGOOD%2BGIRL%2527S%2BGUIDE%2BTO%2BMURDER%2FHolly%2BJackson%2F9781984896391"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781984896391"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781984896391?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 9 to 12",
+                        "amazon_product_url": "http://www.amazon.com/Diary-Wimpy-Kid-Hard-Luck/dp/1419711326?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "and   Jeff Kinney",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781419711329.jpg",
+                        "book_image_width": 330,
+                        "book_image_height": 484,
+                        "book_review_link": "",
+                        "contributor": "written and illustrated by Jeff Kinney",
+                        "contributor_note": "written and illustrated by Jeff Kinney",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "The travails and challenges of adolescence. (Ages 9 to 12)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "None",
+                        "primary_isbn13": "9781419773433",
+                        "book_uri": "nyt://book/011fb3a7-02f0-5524-b604-eda3a29bcdb4",
+                        "publisher": "Amulet",
+                        "rank": 2,
+                        "rank_last_week": 3,
+                        "sunday_review_link": "",
+                        "title": "DIARY OF A WIMPY KID",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 793,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/Diary-Wimpy-Kid-Hard-Luck/dp/1419711326?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781419773433?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781419773433"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FDIARY%2BOF%2BA%2BWIMPY%2BKID%2Fand%2B%2B%2BJeff%2BKinney%2F9781419773433"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781419773433"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781419773433?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 9 to 12",
+                        "amazon_product_url": "http://www.amazon.com/Titans-Curse-Percy-Jackson-Olympians/dp/1423101480?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Rick Riordan",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781423131892.jpg",
+                        "book_image_width": 319,
+                        "book_image_height": 495,
+                        "book_review_link": "",
+                        "contributor": "by Rick Riordan",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "A boy battles mythological monsters. (Ages 9 to 12)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1368098177",
+                        "primary_isbn13": "9781368098175",
+                        "book_uri": "nyt://book/da8de026-2bfe-5197-9085-30872a38e96c",
+                        "publisher": "Disney-Hyperion",
+                        "rank": 3,
+                        "rank_last_week": 7,
+                        "sunday_review_link": "https://www.nytimes.com/2009/05/31/books/review/Devereaux-t.html",
+                        "title": "PERCY JACKSON & THE OLYMPIANS",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 726,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "http://www.amazon.com/Titans-Curse-Percy-Jackson-Olympians/dp/1423101480?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781368098175?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781368098175"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FPERCY%2BJACKSON%2B%2526%2BTHE%2BOLYMPIANS%2FRick%2BRiordan%2F9781368098175"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781368098175"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781368098175?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 8 to 12",
+                        "amazon_product_url": "https://www.amazon.com/dp/0063080087?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Katherine Applegate",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780063080089.jpg",
+                        "book_image_width": 352,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Katherine Applegate",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "The stories of Ivan, Bob and Ruby. (Ages 8 to 12)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0063221128",
+                        "primary_isbn13": "9780063221123",
+                        "book_uri": "nyt://book/a644e8f7-45d0-5c49-8473-28ba8765ec29",
+                        "publisher": "HarperCollins",
+                        "rank": 4,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "THE ONE AND ONLY",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 28,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0063080087?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780063221123?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780063221123"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BONE%2BAND%2BONLY%2FKatherine%2BApplegate%2F9780063221123"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780063221123"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780063221123?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 13 to 18",
+                        "amazon_product_url": "https://www.amazon.com/dp/1250268400?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Stephanie Garber",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250908452.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Stephanie Garber",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:28",
+                        "description": "The story of Evangeline Fox, Jacks, the Prince of Hearts and the pursuit of true love. (Ages 13 to 18)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1250268400",
+                        "primary_isbn13": "9781250268402",
+                        "book_uri": "nyt://book/858d8176-6a94-5306-9165-2da1185b5fb2",
+                        "publisher": "Flatiron",
+                        "rank": 5,
+                        "rank_last_week": 5,
+                        "sunday_review_link": "",
+                        "title": "ONCE UPON A BROKEN HEART",
+                        "updated_date": "2024-05-30 13:45:18",
+                        "weeks_on_list": 15,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1250268400?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781250268402?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250268402"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FONCE%2BUPON%2BA%2BBROKEN%2BHEART%2FStephanie%2BGarber%2F9781250268402"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781250268402"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781250268402?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list_id": 14,
+                "list_name": "Young Adult Hardcover",
+                "list_name_encoded": "young-adult-hardcover",
+                "display_name": "Young Adult Hardcover",
+                "updated": "WEEKLY",
+                "list_image": null,
+                "list_image_width": null,
+                "list_image_height": null,
+                "books": [
+                    {
+                        "age_group": "Ages 14 and up",
+                        "amazon_product_url": "https://www.amazon.com/dp/1665954884?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Lauren Roberts",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781665955997.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Lauren Roberts",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "Forbidden love is in the air when Paedyn, an Ordinary, and Kai, an Elite, become romantically involved. (Ages 14 and up)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1665954884",
+                        "primary_isbn13": "9781665954884",
+                        "book_uri": "nyt://book/3dcb864b-e0cf-5133-9ebe-f4cc1c5a68af",
+                        "publisher": "Simon & Schuster",
+                        "rank": 1,
+                        "rank_last_week": 1,
+                        "sunday_review_link": "",
+                        "title": "POWERLESS",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 29,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1665954884?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781665954884?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781665954884"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FPOWERLESS%2FLauren%2BRoberts%2F9781665954884"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781665954884"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781665954884?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 14 and up",
+                        "amazon_product_url": "https://www.amazon.com/dp/1665966300?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Lauren Roberts",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781665966887.jpg",
+                        "book_image_width": 356,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Lauren Roberts",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "Adena is on her own in Loot, after Paedyn is selected for the Purging Trials. (Ages 14 and up)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1665966300",
+                        "primary_isbn13": "9781665966306",
+                        "book_uri": "nyt://book/3cd71a0c-7180-51b7-b89f-a5ac00552431",
+                        "publisher": "Simon & Schuster",
+                        "rank": 2,
+                        "rank_last_week": 2,
+                        "sunday_review_link": "",
+                        "title": "POWERFUL",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 4,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1665966300?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781665966306?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781665966306"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FPOWERFUL%2FLauren%2BRoberts%2F9781665966306"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781665966306"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781665966306?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 14 to 17",
+                        "amazon_product_url": "https://www.amazon.com/dp/0593374207?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Holly Jackson",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9780593374207.jpg",
+                        "book_image_width": 331,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Holly Jackson",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "Annabel Price's mother was presumed dead, until she reappears during the filming of a documentary about her disappearance. (Ages 14 to 17)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "0593374207",
+                        "primary_isbn13": "9780593374207",
+                        "book_uri": "nyt://book/12afb6d8-ecec-5277-9eaa-81f035dcbec6",
+                        "publisher": "Delacorte",
+                        "rank": 3,
+                        "rank_last_week": 4,
+                        "sunday_review_link": "",
+                        "title": "THE REAPPEARANCE OF RACHEL PRICE",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 8,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/0593374207?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9780593374207?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780593374207"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BREAPPEARANCE%2BOF%2BRACHEL%2BPRICE%2FHolly%2BJackson%2F9780593374207"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9780593374207"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9780593374207?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 13 to 18",
+                        "amazon_product_url": "https://www.amazon.com/dp/1250857430?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Rebecca Ross",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250857439.jpg",
+                        "book_image_width": 329,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Rebecca Ross",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "Two young rival journalists find love through a magical connection. (Ages 13 to 18)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1250857430",
+                        "primary_isbn13": "9781250857439",
+                        "book_uri": "nyt://book/4e2ba9dd-e1e3-510d-9830-66259b3e98ec",
+                        "publisher": "Wednesday",
+                        "rank": 4,
+                        "rank_last_week": 3,
+                        "sunday_review_link": "",
+                        "title": "DIVINE RIVALS",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 49,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1250857430?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781250857439?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250857439"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FDIVINE%2BRIVALS%2FRebecca%2BRoss%2F9781250857439"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781250857439"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781250857439?aff=NYT"
+                            }
+                        ]
+                    },
+                    {
+                        "age_group": "Ages 13 and up",
+                        "amazon_product_url": "https://www.amazon.com/dp/1419760904?tag=thenewyorktim-20",
+                        "article_chapter_link": "",
+                        "author": "Alex Aster",
+                        "book_image": "https://storage.googleapis.com/du-prd/books/images/9781419760907.jpg",
+                        "book_image_width": 333,
+                        "book_image_height": 500,
+                        "book_review_link": "",
+                        "contributor": "by Alex Aster",
+                        "contributor_note": "",
+                        "created_date": "2024-05-29 22:20:29",
+                        "description": "In this sequel to \"Lightlark,\" Isla must chose between her two powerful lovers. (Ages 13 and up)",
+                        "first_chapter_link": "",
+                        "price": "0.00",
+                        "primary_isbn10": "1419760904",
+                        "primary_isbn13": "9781419760907",
+                        "book_uri": "nyt://book/1e996160-cc1c-55fd-9c20-5188be1178ba",
+                        "publisher": "Amulet",
+                        "rank": 5,
+                        "rank_last_week": 9,
+                        "sunday_review_link": "",
+                        "title": "NIGHTBANE",
+                        "updated_date": "2024-05-30 13:45:19",
+                        "weeks_on_list": 29,
+                        "buy_links": [
+                            {
+                                "name": "Amazon",
+                                "url": "https://www.amazon.com/dp/1419760904?tag=thenewyorktim-20"
+                            },
+                            {
+                                "name": "Apple Books",
+                                "url": "https://goto.applebooks.apple/9781419760907?at=10lIEQ"
+                            },
+                            {
+                                "name": "Barnes and Noble",
+                                "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781419760907"
+                            },
+                            {
+                                "name": "Books-A-Million",
+                                "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FNIGHTBANE%2FAlex%2BAster%2F9781419760907"
+                            },
+                            {
+                                "name": "Bookshop",
+                                "url": "https://bookshop.org/a/3546/9781419760907"
+                            },
+                            {
+                                "name": "IndieBound",
+                                "url": "https://www.indiebound.org/book/9781419760907?aff=NYT"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

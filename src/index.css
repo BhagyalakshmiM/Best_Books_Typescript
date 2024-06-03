@@ -6,8 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #E9EDF6;
-  height: 100vh;
-  width: 100vw;
 }
 
 code {
@@ -15,18 +13,13 @@ code {
     monospace;
 }
 
-
-#root {
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
 .container {
-  position: relative;
-  left: 81px;
+  float: right;
   width: calc(100% - 81px);
+  top: 74px;
   display: flex;
+  position: relative;
+  z-index: 1;
   justify-content: center;
 }
 

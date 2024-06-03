@@ -1,0 +1,39 @@
+.title {
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #454664;
+    margin-top: 55px;
+}
+
+.listWrapper {
+    width: 88%;
+}
+
+.Wrapper {
+    form {
+        margin-bottom: 37px;
+    }
+}
+
+.listItemText {
+    display: flex;
+    color: #5B5B5B;
+    span {
+        font-weight: 700;
+        margin-right: 6px;
+        font-size: 16px;
+        letter-spacing: normal;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    p {
+        font-size: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

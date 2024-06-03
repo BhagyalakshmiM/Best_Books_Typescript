@@ -1,13 +1,11 @@
 import axios from "axios";
+import { ImageObjectProp } from "../Types/types";
 import { useQuery } from "react-query";
 
 type Response = {
     results: {
         lists: Array<{
-            books: Array<{
-                book_image: string,
-                title: string
-            }>
+            books: Array<ImageObjectProp>
         }>
     }
 }
@@ -19,6 +17,6 @@ const fetchLatestBooks = async (): Promise<Response> => {
 }
 
 export const useFetchLatestBooks = () => {
-    const { data, error, isLoading, isSuccess } = useQuery(['fetchLatestBooks'], fetchLatestBooks);
+    const { data, error, isLoading, isSuccess } = useQuery({queryKey: ['fetchLatestBooks'], queryFn: fetchLatestBooks, refetchOnWindowFocus: false});
     return { data, error, isLoading, isSuccess };
 }
