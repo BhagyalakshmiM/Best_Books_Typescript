@@ -7,6 +7,12 @@ type BookListType = {
   bookFavoriteList: Array<ImageObjectProp>;
 }
 
+type UpdatePropType = {
+  item: ImageObjectProp,
+  price: string,
+  rating: number
+}
+
 // Define the initial state using that type
 const initialState: BookListType = {
   bookList: [],
@@ -27,11 +33,15 @@ export const bookListSlice = createSlice({
     removeBookFavoriteList: (state, action: PayloadAction<ImageObjectProp>) => {
       let elementIndex = state.bookFavoriteList.findIndex(ele => action.payload.primary_isbn13  === ele.primary_isbn13);
       state.bookFavoriteList.splice(elementIndex,1);
+    },
+    updatePriceRating: (state, action: PayloadAction<UpdatePropType>) => {
+      let elementIndex = state.bookFavoriteList.findIndex(ele => action.payload.item.primary_isbn13  === ele.primary_isbn13);
+      state.bookFavoriteList.splice(elementIndex,1, {...action.payload.item, price: action.payload.price.toString(), rank: action.payload.rating});
     }
   }
 })
 
-export const { setBookList, setBookFavoriteList, removeBookFavoriteList } = bookListSlice.actions
+export const { setBookList, setBookFavoriteList, removeBookFavoriteList, updatePriceRating } = bookListSlice.actions
 
 // Other code such as selectors can use the imported `RootState` type
 export const selectBookList = (state: RootState) => state.booListStore

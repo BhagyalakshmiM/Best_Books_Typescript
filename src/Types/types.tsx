@@ -9,7 +9,7 @@ export type ImageObjectProp = {
     book_image: string,
     title: string,
     primary_isbn13: string;
-    rank: string;
+    rank: number;
     price: string;
     isFavorite?: boolean;
 }

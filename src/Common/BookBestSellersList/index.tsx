@@ -17,18 +17,22 @@ import { useEffect, useState } from "react";
 
 type BookBestSellersProp = {
     setPage?: Function;
+    setEditItem?: Function;
     title: string;
     list: Array<ImageObjectProp>;
     favBookList?: Array<ImageObjectProp>;
 }
 
-const BookBestSellersList = ({ setPage, title, list, favBookList }: BookBestSellersProp) => {
+const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }: BookBestSellersProp) => {
     const [itemList, setItemList] = useState<Array<ImageObjectProp> | []>();
     const isFavoritePage = title === 'Favorite';
     const dispatch = useAppDispatch();
     const addBookToFavorite = (item: ImageObjectProp) => {
         item.isFavorite ? dispatch(removeBookFavoriteList(item)) : dispatch(setBookFavoriteList({ ...item, isFavorite: true }));
     };
+    const handleEditClick = (item: ImageObjectProp) => {
+        setEditItem && setEditItem(item);
+    }
     useEffect(() => {
         if (list.length && !isFavoritePage && favBookList?.length) {
             // compare favList and list and update itemList
@@ -72,15 +76,15 @@ const BookBestSellersList = ({ setPage, title, list, favBookList }: BookBestSell
                                 <Rating
                                     name="book rank"
                                     readOnly
-                                    value={parseInt(ele.rank)}
+                                    value={ele.rank}
                                     precision={1}
                                     size="small"
                                     sx={{ mr: '5.8%' }} />
-                                <span className={styles.priceSpan}>{ele.price} GBP</span>
+                                <span className={styles.priceSpan}>{parseFloat(ele.price)} GBP</span>
                             </div>
                             {isFavoritePage &&
                                     <Stack spacing={1} direction="row" sx={{ mr: '15px'}}>
-                                        <Button variant="text" className={styles.ButtonText}>Edit</Button>
+                                        <Button variant="text" className={styles.ButtonText} onClick={() => {handleEditClick(ele)}}>Edit</Button>
                                         <Button variant="text" className={styles.ButtonText}>Delete</Button>
                                     </Stack>}
                         </ListItem>,
