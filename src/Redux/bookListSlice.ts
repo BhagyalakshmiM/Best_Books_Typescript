@@ -14,7 +14,7 @@ const initialState: BookListType = {
 };
 
 export const bookListSlice = createSlice({
-  name: 'bookList',
+  name: 'booListStore',
   // `createSlice` will infer the state type from the `initialState` argument
   initialState,
   reducers: {
@@ -34,6 +34,6 @@ export const bookListSlice = createSlice({
 export const { setBookList, setBookFavoriteList, removeBookFavoriteList } = bookListSlice.actions
 
 // Other code such as selectors can use the imported `RootState` type
-export const selectBookList = (state: RootState) => state.bookList
+export const selectBookList = (state: RootState) => state.booListStore
 
 export default bookListSlice.reducer

@@ -1,5 +1,6 @@
 import Link from '@mui/material/Link';
 import ImageList from '@mui/material/ImageList';
+import { useNavigate } from 'react-router-dom';
 import ImageListItem from '@mui/material/ImageListItem';
 import { useAppDispatch } from '../../../Redux/hooks';
 import { setBookList } from "../../../Redux/bookListSlice";
@@ -8,10 +9,13 @@ import styles from './index.module.css';
 
 const ThumbNailList = ({ linkName, imageListProp, pageChanged }: LinkNameListProps) => {
     const dispatch = useAppDispatch();
+    const navigate = useNavigate();
     const handleLinkClick = () => {
         if(linkName !== 'Favorites') {
             dispatch(setBookList(imageListProp));
             pageChanged && pageChanged(true);
+        } else {
+            navigate('/favorite');
         }
     }
     return (

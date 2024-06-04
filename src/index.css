@@ -17,8 +17,12 @@ code {
   float: right;
   width: calc(100% - 81px);
   top: 74px;
+  left: 81px;
+  overflow: auto;
   display: flex;
-  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   z-index: 1;
   justify-content: center;
 }

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import SearchInput from "../../Common/SearchInput";
 import ThumbNailList from "./ThumbNailList";
 import { useFetchLatestBooks } from "../../apiCalls/useFetchLatestBooks";
+import { useAppSelector } from "../../Redux/hooks";
 import { ImageObjectProp } from "../../Types/types";
 import styles from './index.module.css'
 import BookBestSellersList from "../../Common/BookBestSellersList";
@@ -11,6 +12,8 @@ type PageProps = {
 }
 
 const DashboardPage = ({ pageName }: PageProps) => {
+  const favBookList = useAppSelector(state => state.booListStore.bookFavoriteList);
+  const list = useAppSelector(state => state.booListStore.bookList);
   const { data, error, isLoading, isSuccess } = useFetchLatestBooks();
   const [latestBooksList, setLatestBooksList] = useState<Array<ImageObjectProp> | []>();
   const [secondPage, setSecondPage] = useState(false);
@@ -33,8 +36,8 @@ const DashboardPage = ({ pageName }: PageProps) => {
       {!secondPage ?
         <><SearchInput placeholder='What books would you like to find?' />
           <ThumbNailList linkName="New York Times Bestsellers" imageListProp={latestBooksList || []} pageChanged={setSecondPage} />
-          <ThumbNailList linkName="Favorites" imageListProp={[]} /></>
-        : <BookBestSellersList />}
+          <ThumbNailList linkName="Favorites" imageListProp={favBookList} /></>
+        : <BookBestSellersList setPage={setSecondPage} title="New York Times Bestsellers" list={list} favBookList={favBookList} />}
     </div>
   );
 };

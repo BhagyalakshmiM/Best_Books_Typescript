@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
-import { store } from './Redux/store';
+import { store, persistor } from './Redux/store';
+import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import './index.css';
@@ -13,9 +14,11 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
+    <PersistGate loading={null} persistor={persistor}>
     <QueryClientProvider client={client}>
       <App />
     </QueryClientProvider>
+    </PersistGate>
   </Provider>
 );
 
