@@ -43,6 +43,7 @@ const ThumbNailList = ({ linkName, imageListProp, pageChanged }: LinkNameListPro
                     <ImageListItem key={item.primary_isbn13}>
                         <img
                             className={styles.ImgEle}
+                            style={{ opacity: linkName !== 'Favorites' ? '70%' : '1'}}
                             src={item.book_image}
                             alt={item.title}
                             loading="lazy" />

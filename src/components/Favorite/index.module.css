@@ -97,3 +97,8 @@
     line-height: 20px;
     color: #454664;
 }
+
+.BackArrowEnd {
+    display: flex;
+    margin: 75px 0px;
+}
