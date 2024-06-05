@@ -17,6 +17,6 @@ const fetchLatestBooks = async (): Promise<Response> => {
 }
 
 export const useFetchLatestBooks = () => {
-    const { data, error, isLoading, isSuccess } = useQuery({queryKey: ['fetchLatestBooks'], queryFn: fetchLatestBooks, refetchOnWindowFocus: false});
-    return { data, error, isLoading, isSuccess };
+    const { data, isLoading, isSuccess, isError, refetch } = useQuery({queryKey: ['fetchLatestBooks'], queryFn: fetchLatestBooks, refetchOnWindowFocus: false});
+    return { data, isLoading, isSuccess, isError, refetch };
 }

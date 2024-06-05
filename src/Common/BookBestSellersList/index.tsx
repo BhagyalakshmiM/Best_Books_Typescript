@@ -8,7 +8,7 @@ import Avatar from "@mui/material/Avatar";
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import SearchInput from "../SearchInput";
-import { useAppDispatch } from "../../Redux/hooks";
+import { useAppDispatch, useAppSelector } from "../../Redux/hooks";
 import { removeBookFavoriteList, setBookFavoriteList } from "../../Redux/bookListSlice";
 import { BookIcon, FavoriteEmptyIcon, FilledHeart, ArrowBack } from "../../Assets/NavigationIcons";
 import { ImageObjectProp } from "../../Types/types";
@@ -24,8 +24,9 @@ type BookBestSellersProp = {
 }
 
 const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }: BookBestSellersProp) => {
+    const searchStr = useAppSelector(state => state.booListStore.searchStr);
     const [itemList, setItemList] = useState<Array<ImageObjectProp> | []>();
-    const isFavoritePage = title === 'Favorite';
+    const isFavoritePage = title === 'Favorites';
     const dispatch = useAppDispatch();
     const addBookToFavorite = (item: ImageObjectProp) => {
         item.isFavorite ? dispatch(removeBookFavoriteList(item)) : dispatch(setBookFavoriteList({ ...item, isFavorite: true }));
@@ -34,6 +35,19 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
         setEditItem && setEditItem(item);
     }
     useEffect(() => {
+        if (searchStr) {
+            const filteredArray = itemList?.filter((item) => {
+                if (item.title.includes(searchStr) || item.author.includes(searchStr) || (!isFavoritePage && item.description.includes(searchStr))) {
+                    return item;
+                }
+            });
+            filteredArray?.length ? setItemList(filteredArray) : setItemList([]);
+        } else {
+            handleFavoritePageList();
+        }
+    }, [searchStr]);
+
+    const handleFavoritePageList = () => {
         if (list.length && !isFavoritePage && favBookList?.length) {
             // compare favList and list and update itemList
             const temp = list.map((ele) => {
@@ -43,6 +57,9 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
         } else {
             setItemList(list);
         }
+    }
+    useEffect(() => {
+        handleFavoritePageList();
     }, [list, favBookList]);
     return (
         <div className={styles.Wrapper}>
@@ -50,7 +67,8 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
                 {setPage && <IconButton onClick={() => setPage(false)} aria-label="back-arrow" sx={{ mr: '8px' }}>
                     <ArrowBack />
                 </IconButton>}
-                <span>{title}</span></div>
+                <span>{title}</span>
+            </div>
             <SearchInput placeholder="Search" />
             <div className={styles.listWrapper}>
                 <List dense disablePadding sx={{ overflow: 'auto', height: '405px' }}>
@@ -83,10 +101,10 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
                                 <span className={styles.priceSpan}>{parseFloat(ele.price)} GBP</span>
                             </div>
                             {isFavoritePage &&
-                                    <Stack spacing={1} direction="row" sx={{ mr: '15px'}}>
-                                        <Button variant="text" className={styles.ButtonText} onClick={() => {handleEditClick(ele)}}>Edit</Button>
-                                        <Button variant="text" className={styles.ButtonText}>Delete</Button>
-                                    </Stack>}
+                                <Stack spacing={1} direction="row" sx={{ mr: '15px' }}>
+                                    <Button variant="text" className={styles.ButtonText} onClick={() => { handleEditClick(ele) }}>Edit</Button>
+                                    <Button variant="text" className={styles.ButtonText}>Delete</Button>
+                                </Stack>}
                         </ListItem>,
                     )}
                 </List>

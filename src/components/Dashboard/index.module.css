@@ -5,3 +5,21 @@
     margin: auto;
     justify-content: center;
 }
+
+.LoadErrorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 89%;
+    height: calc(100vh - 236px);
+    >span:first-child {
+        position: relative;
+        bottom: 80px;
+    }
+    >div:first-child {
+        width: 80%;
+        position: relative;
+        bottom: 80px;
+    }
+}

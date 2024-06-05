@@ -2,6 +2,7 @@ export type LinkNameListProps = {
     linkName: string;
     imageListProp: Array<ImageObjectProp> | [];
     pageChanged?: Function;
+    refetchAPI?: Function;
 };
 
 export type ImageObjectProp = {
@@ -11,5 +12,7 @@ export type ImageObjectProp = {
     primary_isbn13: string;
     rank: number;
     price: string;
+    author: string;
+    description: string;
     isFavorite?: boolean;
 }

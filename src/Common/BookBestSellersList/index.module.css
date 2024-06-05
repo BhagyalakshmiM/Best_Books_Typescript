@@ -28,7 +28,8 @@
 .listItemText {
     display: flex;
     color: #5B5B5B;
-    width: 400px;
+    flex-grow: 1;
+    width: 300px;
     span {
         font-weight: 700;
         margin-right: 6px;
@@ -72,6 +73,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-grow: 1;
+    width: 140px;
 }
 
 .itemButtonReverse {
@@ -79,6 +81,7 @@
     flex-direction: row-reverse;
     justify-content: space-evenly;
     flex-grow: 1;
+    width: 140px;
 }
 
 .ButtonText {

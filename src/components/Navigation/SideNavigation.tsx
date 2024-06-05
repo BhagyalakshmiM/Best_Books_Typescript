@@ -20,7 +20,7 @@ export const topIcons: SideNavigationIcons[] = [
         component: StatsIcon,
     },
     {
-        key: 'Favorite',
+        key: 'Favorites',
         path: '/favorite',
         component: FavoriteIcon,
     },
@@ -46,7 +46,7 @@ const SideNavigation = (): JSX.Element => {
                     return (
                         <div key={ele.key} className={location.pathname === ele.path ? styles.ListWrapperSelected : styles.ListWrapper}>
                         <ListItem divider disablePadding>
-                            <ListItemButton disableGutters disableRipple onClick={() => handleNavButton(ele.path)} sx={{ flexGrow: 0 }}>
+                            <ListItemButton disableGutters disableRipple onClick={() => handleNavButton(ele.path)} sx={{ flexGrow: 0, backgroundColor: 'transparent !important' }}>
                                 <ListItemIcon sx={{ minWidth: 0 }}>
                                     <ele.component />
                                 </ListItemIcon>
