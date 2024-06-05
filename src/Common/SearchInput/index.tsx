@@ -11,17 +11,21 @@ type SearchInputProp = {
   placeholder: string
 }
 
+// search input common component used all pages
 const SearchInput = ({ placeholder }: SearchInputProp) => {
   const [searchInput, setSearchInput] = useState('');
   const dispatch = useAppDispatch();
+  // on change of input setting local search string state
   const handleSearchStrChange = (e: any) => {
     setSearchInput(e.target.value);
   }
+  // faced issue while clicking on enter on input , temporary fix - still looking into it
   const handleSearchStrKeydown = (e: any) => {
     if(e.key === 'Enter') {
       e.preventDefault();
     }
   }
+  // on click on Go button setting redux store with string
   const handleGoButtonClick = () => {
     dispatch(setSearchString(searchInput));
   }

@@ -15,12 +15,15 @@ type PageProps = {
 }
 
 const DashboardPage = ({ pageName }: PageProps) => {
+  // getting both favlist and booklist from redux store
   const favBookList = useAppSelector(state => state.booListStore.bookFavoriteList);
   const list = useAppSelector(state => state.booListStore.bookList);
+  // making api call
   const { data, isLoading, isSuccess, isError, refetch } = useFetchLatestBooks();
   const [latestBooksList, setLatestBooksList] = useState<Array<ImageObjectProp> | []>();
   const [secondPage, setSecondPage] = useState(false);
 
+  // rendering components based status of api call (Error, loader, data)
   const getComponent = () => {
     let ele;
     if (isSuccess) {
@@ -39,7 +42,7 @@ const DashboardPage = ({ pageName }: PageProps) => {
     }
     return ele;
   }
-
+  // on success setting the data to be displayed in UI
   useEffect(() => {
     if (isSuccess) {
       let bookList: Array<ImageObjectProp>[] = [];
@@ -48,6 +51,8 @@ const DashboardPage = ({ pageName }: PageProps) => {
     }
   }, [isSuccess]);
 
+  // There were some repeated elements in books list from api, creating unique list
+  // there were few repetitive isbn number so used combination of author and title to get unique list
   const getUniqueBookList = (list: Array<ImageObjectProp>) => {
     const prods = list.filter((value, index, array) => index == array
       .findIndex(item => item.title === value.title && item.author === value.author));

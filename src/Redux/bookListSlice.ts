@@ -26,20 +26,25 @@ export const bookListSlice = createSlice({
   // `createSlice` will infer the state type from the `initialState` argument
   initialState,
   reducers: {
+    // setting the main list from api call
     setBookList: (state, action: PayloadAction<Array<ImageObjectProp>>) => {
       state.bookList = action.payload;
     },
+    // setting favorite list to redux state
     setBookFavoriteList: (state, action: PayloadAction<ImageObjectProp>) => {
       state.bookFavoriteList.push(action.payload);
     },
+    //removing item from favorite list
     removeBookFavoriteList: (state, action: PayloadAction<ImageObjectProp>) => {
       let elementIndex = state.bookFavoriteList.findIndex(ele => action.payload.primary_isbn13  === ele.primary_isbn13);
       state.bookFavoriteList.splice(elementIndex,1);
     },
+    // updating price and rate of book item
     updatePriceRating: (state, action: PayloadAction<UpdatePropType>) => {
       let elementIndex = state.bookFavoriteList.findIndex(ele => action.payload.item.primary_isbn13  === ele.primary_isbn13);
       state.bookFavoriteList.splice(elementIndex,1, {...action.payload.item, price: action.payload.price.toString(), rank: action.payload.rating});
     },
+    //storing search string to redux state
     setSearchString: (state, action: PayloadAction<string>) => {
       state.searchStr = action.payload;
     }

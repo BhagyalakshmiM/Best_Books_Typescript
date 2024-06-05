@@ -35,6 +35,7 @@ export const topIcons: SideNavigationIcons[] = [
 const SideNavigation = (): JSX.Element => {
     const navigate = useNavigate();
     const location = useLocation();
+    // setting the path when side navigation items are clicked
     const handleNavButton: Function = (path: string): void => {
         navigate(path);
     }

@@ -14,8 +14,10 @@ import styles from './index.module.css';
 
 const ThumbNailList = ({ linkName, imageListProp, pageChanged, refetchAPI }: LinkNameListProps) => {
     const dispatch = useAppDispatch();
+    // getting search string from store
     const searchStr = useAppSelector(state => state.booListStore.searchStr);
     const [list, setList] = useState<Array<ImageObjectProp>>([]);
+    // rendering empty screen or data by checking array length
     const getComponentOrEmptyComp = () => {
         let comp;
         if (imageListProp.length === 0 || list.length === 0) {
@@ -43,6 +45,7 @@ const ThumbNailList = ({ linkName, imageListProp, pageChanged, refetchAPI }: Lin
         return comp;
     }
     const navigate = useNavigate();
+    // using title/author/description to filter the array using search string 
     useEffect(() => {
         if (searchStr) {
             const filteredArray = imageListProp?.filter((item) => {
@@ -58,6 +61,7 @@ const ThumbNailList = ({ linkName, imageListProp, pageChanged, refetchAPI }: Lin
     useEffect(() => {
         setList(imageListProp);
     }, [imageListProp]);
+    // on Link click going too second page based on link clicked
     const handleLinkClick = () => {
         if (linkName !== 'Favorites') {
             dispatch(setBookList(imageListProp));

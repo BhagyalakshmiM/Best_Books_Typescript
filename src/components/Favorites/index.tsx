@@ -16,12 +16,14 @@ type PageProps = {
 }
 
 const FavoritePage = ({ pageName }: PageProps) => {
+  // getting favorite book list from redux store
   const favBookList = useAppSelector(state => state.booListStore.bookFavoriteList);
   const dispatch = useAppDispatch();
   const [editItem, setEditItem] = useState<ImageObjectProp>();
   const [priceVal, setPriceVal] = useState<string>('');
   const [rankVal, setRankVal] = useState<number>(0);
   const [isEditPage, setIsEditPage] = useState<boolean>(false);
+  // when editItem changes updating local states
   useEffect(() => {
     if (editItem) {
       setPriceVal(editItem?.price);
@@ -29,6 +31,7 @@ const FavoritePage = ({ pageName }: PageProps) => {
       setIsEditPage(true);
     }
   }, [editItem]);
+  // dispatching the local states to redux on click of update button
   const handleUpdatePriceRank = () => {
     editItem && priceVal && rankVal && dispatch(updatePriceRating({
       item: editItem,

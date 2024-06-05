@@ -30,28 +30,33 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
     const [itemList, setItemList] = useState<Array<ImageObjectProp> | []>();
     const isFavoritePage = title === 'Favorites';
     const dispatch = useAppDispatch();
+    // dispatching favorite item to redux state
     const addBookToFavorite = (item: ImageObjectProp) => {
         item.isFavorite ? dispatch(removeBookFavoriteList(item)) : dispatch(setBookFavoriteList({ ...item, isFavorite: true }));
     };
+    // handling edit button on list item
     const handleEditClick = (item: ImageObjectProp) => {
         setEditItem && setEditItem(item);
     }
     useEffect(() => {
         if (searchStr) {
+            // checking if search string is present in book item's title or author name or in description
             const filteredArray = itemList?.filter((item) => {
                 if (((item.title).toLocaleLowerCase()).includes(searchStr.toLocaleLowerCase()) || ((item.author).toLocaleLowerCase()).includes((searchStr.toLocaleLowerCase())) || (!isFavoritePage && ((item.description).toLocaleLowerCase()).includes((searchStr.toLocaleLowerCase())))) {
                     return item;
                 }
             });
+            // assigning filtered array to rendering array
             filteredArray?.length ? setItemList(filteredArray) : setItemList([]);
         } else {
+            // if searchStr is removed then set the rendering array to original array
             handleFavoritePageList();
         }
     }, [searchStr]);
 
     const handleFavoritePageList = () => {
         if (list.length && !isFavoritePage && favBookList?.length) {
-            // compare favList and list and update itemList
+            // compare favList and list and update itemList so favorite items are shown in list after the fresh api call assuming isbn is unique key
             const temp = list.map((ele) => {
                 return favBookList?.find((e) => e.primary_isbn13 === ele.primary_isbn13) ?? ele;
             });

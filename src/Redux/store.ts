@@ -12,7 +12,7 @@ const persistConfig = {
   key: 'root',
   storage,
 };
-
+// to persist the data to storage
 const persistedReducer = persistReducer(persistConfig, bookListReducer);
 
 export const store = configureStore({

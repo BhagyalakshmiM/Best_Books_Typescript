@@ -2,6 +2,7 @@ import Button from '@mui/material/Button';
 import profileImg from '../../Assets/ProfileImg.jpeg';
 import styles from './header.module.css';
 
+// component written for header of page
 const Header = (): JSX.Element => (
     <div className={styles.header}>
         <Button
