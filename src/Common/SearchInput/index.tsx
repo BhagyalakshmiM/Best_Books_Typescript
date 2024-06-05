@@ -17,6 +17,11 @@ const SearchInput = ({ placeholder }: SearchInputProp) => {
   const handleSearchStrChange = (e: any) => {
     setSearchInput(e.target.value);
   }
+  const handleSearchStrKeydown = (e: any) => {
+    if(e.key === 'Enter') {
+      e.preventDefault();
+    }
+  }
   const handleGoButtonClick = () => {
     dispatch(setSearchString(searchInput));
   }
@@ -28,7 +33,7 @@ const SearchInput = ({ placeholder }: SearchInputProp) => {
       elevation={0}
       sx={{ display: 'flex', borderRadius: '41px', margin: '55px 0px', height: '52px', width: '89.2%' }}
     >
-      <IconButton sx={{ p: '16px 16px' }} aria-label="menu">
+      <IconButton sx={{ p: '16px 16px' }} aria-label="menu" disabled>
         <SearchIcon />
       </IconButton>
       <InputBase
@@ -37,6 +42,7 @@ const SearchInput = ({ placeholder }: SearchInputProp) => {
         placeholder={placeholder}
         inputProps={{ 'aria-label': placeholder }}
         onChange={(e) => handleSearchStrChange(e)}
+        onKeyDown={(e) => { handleSearchStrKeydown(e)}}
       />
       <Button variant="contained" onClick={() => handleGoButtonClick()} color="primary" sx={{ borderRadius: '0px 41px 41px 0px', backgroundColor: '#93B4BC !important', boxShadow: 'none !important' }} aria-label="Go">
         Go

@@ -1,5 +1,7 @@
 import Link from '@mui/material/Link';
 import { useState, useEffect } from 'react';
+import Alert from '@mui/material/Alert';
+import AlertTitle from '@mui/material/AlertTitle';
 import ImageList from '@mui/material/ImageList';
 import IconButton from '@mui/material/IconButton';
 import { useNavigate } from 'react-router-dom';
@@ -14,16 +16,41 @@ const ThumbNailList = ({ linkName, imageListProp, pageChanged, refetchAPI }: Lin
     const dispatch = useAppDispatch();
     const searchStr = useAppSelector(state => state.booListStore.searchStr);
     const [list, setList] = useState<Array<ImageObjectProp>>([]);
+    const getComponentOrEmptyComp = () => {
+        let comp;
+        if (imageListProp.length === 0 || list.length === 0) {
+            comp = (
+                <Alert severity="info" sx={{ width: '50%', m: '60px auto'}}>
+                    <AlertTitle>Info</AlertTitle>
+                    Currently no books available
+                </Alert>
+            );
+        } else {
+            comp = (
+                <ImageList className={styles.CustomScrollBar} cols={3} gap={30} sx={{ m: '0px 0px 15px 0px', height: '204px' }}>
+                    {list?.map((item) => (
+                        <ImageListItem key={item.primary_isbn13}>
+                            <img
+                                style={{ opacity: linkName !== 'Favorites' ? '70%' : '1' }}
+                                src={item.book_image}
+                                alt={item.title}
+                                loading="lazy" />
+                        </ImageListItem>
+                    ))}
+                </ImageList>
+            );
+        }
+        return comp;
+    }
     const navigate = useNavigate();
     useEffect(() => {
         if (searchStr) {
             const filteredArray = imageListProp?.filter((item) => {
-                if (item.title.includes(searchStr) || item.author.includes(searchStr)) {
+                if (((item.title).toLocaleLowerCase()).includes(searchStr.toLocaleLowerCase()) || ((item.author).toLocaleLowerCase()).includes(searchStr.toLocaleLowerCase())) {
                     return item;
                 }
             });
             filteredArray?.length ? setList(filteredArray) : setList([]);
-            console.log(filteredArray);
         } else {
             setList(imageListProp);
         }
@@ -40,7 +67,7 @@ const ThumbNailList = ({ linkName, imageListProp, pageChanged, refetchAPI }: Lin
         }
     }
     return (
-        <><div className={styles.LinkIconWrapper}><Link
+        <><div><Link
             component="button"
             variant="body2"
             color='#454664'
@@ -51,7 +78,6 @@ const ThumbNailList = ({ linkName, imageListProp, pageChanged, refetchAPI }: Lin
                 fontWeight: '700',
                 lineHeight: '20px',
                 textAlign: 'left',
-                mt: '15px',
                 mb: '17px'
             }}
             onClick={(e) => {
@@ -59,21 +85,10 @@ const ThumbNailList = ({ linkName, imageListProp, pageChanged, refetchAPI }: Lin
             }}>
             {linkName}
         </Link>
-           {linkName !== 'Favorites' && <IconButton aria-label="retry" onClick={() => refetchAPI && refetchAPI()}>
+            {linkName !== 'Favorites' && <IconButton aria-label="retry" sx={{ mb: '15px' }} onClick={() => refetchAPI && refetchAPI()}>
                 <RetryButton />
             </IconButton>}</div>
-            {list.length && <ImageList cols={3} gap={30} sx={{ m: '0px', height: '204px' }}>
-                {list?.map((item) => (
-                    <ImageListItem key={item.primary_isbn13}>
-                        <img
-                            className={styles.ImgEle}
-                            style={{ opacity: linkName !== 'Favorites' ? '70%' : '1' }}
-                            src={item.book_image}
-                            alt={item.title}
-                            loading="lazy" />
-                    </ImageListItem>
-                ))}
-            </ImageList>}</>
+            {getComponentOrEmptyComp()}</>
     );
 }
 

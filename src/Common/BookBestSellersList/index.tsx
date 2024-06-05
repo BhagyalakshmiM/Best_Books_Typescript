@@ -1,5 +1,7 @@
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
+import Alert from '@mui/material/Alert';
+import AlertTitle from '@mui/material/AlertTitle';
 import IconButton from "@mui/material/IconButton";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Rating from "@mui/material/Rating";
@@ -37,7 +39,7 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
     useEffect(() => {
         if (searchStr) {
             const filteredArray = itemList?.filter((item) => {
-                if (item.title.includes(searchStr) || item.author.includes(searchStr) || (!isFavoritePage && item.description.includes(searchStr))) {
+                if (((item.title).toLocaleLowerCase()).includes(searchStr.toLocaleLowerCase()) || ((item.author).toLocaleLowerCase()).includes((searchStr.toLocaleLowerCase())) || (!isFavoritePage && ((item.description).toLocaleLowerCase()).includes((searchStr.toLocaleLowerCase())))) {
                     return item;
                 }
             });
@@ -72,7 +74,7 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
             <SearchInput placeholder="Search" />
             <div className={styles.listWrapper}>
                 <List dense disablePadding sx={{ overflow: 'auto', height: '405px' }}>
-                    {itemList?.map((ele) =>
+                    {itemList?.length ? itemList?.map((ele) =>
                         <ListItem key={ele.primary_isbn13} sx={{ backgroundColor: '#FFFF', height: '52px', mb: '17px', pl: '6px' }}
                             secondaryAction={
                                 <IconButton onClick={() => addBookToFavorite(ele)} className={styles.favoriteIcon} edge="end" aria-label="favorite" sx={{ padding: '16px' }}>
@@ -103,10 +105,13 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
                             {isFavoritePage &&
                                 <Stack spacing={1} direction="row" sx={{ mr: '15px' }}>
                                     <Button variant="text" className={styles.ButtonText} onClick={() => { handleEditClick(ele) }}>Edit</Button>
-                                    <Button variant="text" className={styles.ButtonText}>Delete</Button>
+                                    <Button variant="text" className={styles.ButtonText} onClick={() => addBookToFavorite(ele)}>Delete</Button>
                                 </Stack>}
                         </ListItem>,
-                    )}
+                    ):  <Alert severity="info" sx={{ width: '50%', m: '60px auto'}}>
+                    <AlertTitle>Info</AlertTitle>
+                    Currently no books available
+                </Alert>}
                 </List>
             </div>
         </div>
