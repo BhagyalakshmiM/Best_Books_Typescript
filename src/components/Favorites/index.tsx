@@ -71,7 +71,7 @@ const FavoritePage = ({ pageName }: PageProps) => {
           </div>
           <Button variant="contained" sx={{
             background: 'linear-gradient(180deg, #679CF6 0%, #4072EE 100%)',
-            width: '218px', height: '52px', borderRadius: '41px'
+            width: '21%', height: '52px', borderRadius: '41px'
           }} onClick={() => handleUpdatePriceRank()}>Update</Button>
         </div>
         <div className={styles.BackArrowEnd}>

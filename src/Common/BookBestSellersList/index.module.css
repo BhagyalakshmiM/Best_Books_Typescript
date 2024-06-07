@@ -84,10 +84,23 @@
     width: 140px;
 }
 
-.ButtonText {
+.ButtonText, .ButtonTextDel {
     color: #5B5B5B;
     font-size: 16px;
     line-height: 20px;
     font-family: 'Lato';
     font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+    .itemButtonReverse {
+        display: none;
+    }
+    .itemButtonWrapper {
+        display: none;
+    }
+    .ButtonTextDel {
+        display: none;
+    }
+    
 }

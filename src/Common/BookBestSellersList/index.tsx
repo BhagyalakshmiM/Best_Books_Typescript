@@ -26,6 +26,12 @@ type BookBestSellersProp = {
 }
 
 const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }: BookBestSellersProp) => {
+    useEffect(() => {
+        console.log('no dependency');
+      });
+      useEffect(() => {
+        console.log('empty array');
+      }, []);
     const searchStr = useAppSelector(state => state.booListStore.searchStr);
     const [itemList, setItemList] = useState<Array<ImageObjectProp> | []>();
     const isFavoritePage = title === 'Favorites';
@@ -110,7 +116,7 @@ const BookBestSellersList = ({ setPage, title, list, favBookList, setEditItem }:
                             {isFavoritePage &&
                                 <Stack spacing={1} direction="row" sx={{ mr: '15px' }}>
                                     <Button variant="text" className={styles.ButtonText} onClick={() => { handleEditClick(ele) }}>Edit</Button>
-                                    <Button variant="text" className={styles.ButtonText} onClick={() => addBookToFavorite(ele)}>Delete</Button>
+                                    <Button variant="text" className={styles.ButtonTextDel} onClick={() => addBookToFavorite(ele)}>Delete</Button>
                                 </Stack>}
                         </ListItem>,
                     ):  <Alert severity="info" sx={{ width: '50%', m: '60px auto'}}>
